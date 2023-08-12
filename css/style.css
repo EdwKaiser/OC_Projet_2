@@ -10,11 +10,25 @@
     --filter-bg-color: #DEEBFF;
 
 }
-
+/******** style Font awesome (fa-solid) ********/
 .fa-solid {
     color: var(--main-color);
 }
 
+.search-bar .fa-solid.fa-location-dot.fa-lg {
+    color:black;
+
+}
+
+.search-bar .fa-solid.fa-magnifying-glass {
+    color: white;
+}
+
+.search-filters .fa-solid {
+    color: #0065fc;
+    
+}
+/************************************************/
 body {
     display: flex;
     flex-direction: column;
